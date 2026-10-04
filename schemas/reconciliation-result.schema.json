@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"ReconciliationResult","type":"object","required":["status","qualification_path_allowed","reason"],"properties":{"status":{"enum":["AGREEMENT","MISMATCH","INCONCLUSIVE","NOT_MEASURED"]},"qualification_path_allowed":{"type":"boolean"},"reason":{"type":"string"}}}
