@@ -13,8 +13,12 @@ Real isolated execution: NOT_MEASURED
 Worker isolation verification: NOT_MEASURED
 Cleanup verification: NOT_MEASURED
 Full end-to-end laboratory execution: NOT_MEASURED
+Reconciliation enforcement: IMPLEMENTED FOR CURRENT SCOPE
+Qualification boundary: IMPLEMENTED FOR CURRENT SCOPE
 Qualification: NOT_CLAIMED
 Human authority: EXTERNAL
+
+KX-008 establishes a mechanical boundary in which sufficient evidence, verification, and reconciliation agreement can produce only REVIEW_REQUIRED. NOT_MEASURED, BLOCKED, mismatched, or unverified prerequisites remain NOT_CLAIMED. The evaluator cannot grant human authority.
 
 Kronos-X does not convert configured controls into measured claims.
 
