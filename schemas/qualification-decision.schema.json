@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"QualificationDecision","type":"object","required":["status","human_review_required","authority_granted","reason"],"properties":{"status":{"enum":["NOT_CLAIMED","REVIEW_REQUIRED","QUALIFIED"]},"human_review_required":{"type":"boolean"},"authority_granted":{"const":false},"reason":{"type":"string"}}}
