@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"RunLedgerEntry","type":"object","required":["sequence","run_id","event","status","source_commit"],"properties":{"sequence":{"type":"integer","minimum":1},"run_id":{"type":"string"},"event":{"type":"string"},"status":{"type":"string"},"source_commit":{"type":"string"},"evidence_id":{"type":["string","null"]}}}
