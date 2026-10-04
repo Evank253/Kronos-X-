@@ -1,0 +1,5 @@
+TERMINAL_POSITIVE={"OBSERVED","VERIFIED"}
+NON_POSITIVE={"NOT_MEASURED","BLOCKED","INCONCLUSIVE","FAILED","UNRESOLVED","NOT_CLAIMED"}
+
+def is_experimental_success(status:str)->bool:
+    return status in TERMINAL_POSITIVE
