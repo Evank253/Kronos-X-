@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"LifecycleEvent","type":"object","required":["execution_id","state","timestamp","worker_identity"],"properties":{"execution_id":{"type":"string"},"state":{"type":"string"},"timestamp":{"type":"string"},"worker_identity":{"type":"string"},"detail":{"type":"string"}}}
