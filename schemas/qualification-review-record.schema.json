@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"QualificationReviewRecord","type":"object","required":["review_id","subject_id","decision"],"properties":{"review_id":{"type":"string"},"subject_id":{"type":"string"},"evidence_ids":{"type":"array","items":{"type":"string"}},"decision":{"type":"string"},"human_ratification_id":{"type":["string","null"]}}}
